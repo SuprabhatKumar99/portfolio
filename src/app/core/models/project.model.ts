@@ -7,6 +7,8 @@ export interface Technology {
     | 'database'
     | 'cloud'
     | 'devops'
+    | 'ai'
+    | 'infrastructure'
     | 'other';
 }
 
