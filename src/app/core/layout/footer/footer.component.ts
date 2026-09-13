@@ -66,7 +66,7 @@ import { SOCIAL_LINKS } from '../../../data/social-links';
 
       <!-- Bottom Bar -->
       <div class="max-w-7xl mx-auto pt-6 border-t border-cyber-border/60 flex flex-col sm:flex-row items-center justify-between text-xs font-mono text-slate-500">
-        <p>&copy; 2026 Suprabhat Chandra Banerjee. Designed with Angular 22 & Tailwind CSS.</p>
+        <p>&copy; 2026 Suprabhat KUMAR | S.C.B</p>
         <div class="flex items-center space-x-4 mt-3 sm:mt-0">
           <span>HOSTED ON GITHUB PAGES</span>
           <span>•</span>
