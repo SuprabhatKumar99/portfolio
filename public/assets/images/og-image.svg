@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#05070D"/>
+  <g opacity="0.1">
+    <path d="M0,0 L1200,630 M0,630 L1200,0" stroke="#00F0FF" stroke-width="1"/>
+    <circle cx="600" cy="315" r="300" stroke="#00F0FF" stroke-width="1"/>
+    <circle cx="600" cy="315" r="450" stroke="#8B5CF6" stroke-width="1" stroke-dasharray="8 8"/>
+  </g>
+  <rect x="80" y="80" width="1040" height="470" rx="20" fill="#0B0F19" fill-opacity="0.8" stroke="#1E293B" stroke-width="2"/>
+  <text x="140" y="200" font-family="monospace" font-size="24" fill="#00F0FF" letter-spacing="4">&lt;PORTFOLIO_SYSTEM_INITIALIZED /&gt;</text>
+  <text x="140" y="290" font-family="sans-serif" font-weight="bold" font-size="64" fill="#F8FAFC">Suprabhat Kumar | SCB</text>
+  <text x="140" y="360" font-family="sans-serif" font-size="32" fill="#94A3B8">Distributed Systems • Full-Stack Engineering • Agentic AI</text>
+  <rect x="140" y="420" width="220" height="48" rx="8" fill="#00F0FF" fill-opacity="0.1" stroke="#00F0FF" stroke-width="1.5"/>
+  <text x="175" y="452" font-family="monospace" font-size="18" fill="#00F0FF">Angular 22 + Tailwind</text>
+  <rect x="380" y="420" width="220" height="48" rx="8" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-width="1.5"/>
+  <text x="405" y="452" font-family="monospace" font-size="18" fill="#10B981">Spring Boot + Kafka</text>
+  <rect x="620" y="420" width="220" height="48" rx="8" fill="#8B5CF6" fill-opacity="0.1" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="655" y="452" font-family="monospace" font-size="18" fill="#8B5CF6">LangGraph + RAG</text>
+</svg>

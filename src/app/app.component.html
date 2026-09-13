@@ -1,0 +1,20 @@
+<div class="min-h-screen flex flex-col bg-slate-50 dark:bg-cyber-bg text-slate-900 dark:text-cyber-text font-sans antialiased selection:bg-cyber-cyan selection:text-cyber-bg transition-colors duration-300">
+  
+  <!-- Subtle Cyber Grid Background -->
+  <div class="fixed inset-0 bg-cyber-grid pointer-events-none opacity-40 -z-20"></div>
+  
+  <!-- Subtle Scanline overlay for futuristic feel -->
+  <div class="fixed inset-0 bg-scanline-pattern pointer-events-none opacity-20 -z-10"></div>
+
+  <!-- Application Shell Header -->
+  <app-navbar></app-navbar>
+
+  <!-- Dynamic Routed Content -->
+  <main id="main-content" class="flex-1 w-full" tabindex="-1">
+    <router-outlet></router-outlet>
+  </main>
+
+  <!-- Application Shell Footer -->
+  <app-footer></app-footer>
+
+</div>

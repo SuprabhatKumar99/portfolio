@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://suprabhatbanerjee.github.io/sitemap.xml
