@@ -17,17 +17,17 @@ export class SeoService {
   private readonly titleService = inject(Title);
   private readonly metaService = inject(Meta);
 
-  private readonly DEFAULT_TITLE = 'Suprabhat Chandra Banerjee | Full-Stack Systems & AI Engineer';
-  private readonly DEFAULT_DESC = 'Personal portfolio of Suprabhat Chandra Banerjee — specializing in high-throughput distributed microservices, Spring Boot, Kafka, Angular, and Agentic AI workflows.';
+  private readonly DEFAULT_TITLE = 'Suprabhat Kumar S.C.B | Full-Stack Systems & AI Engineer';
+  private readonly DEFAULT_DESC = 'Personal portfolio of Suprabhat Kumar S.C.B — specializing in high-throughput distributed microservices, Spring Boot, Kafka, Angular, and Agentic AI workflows.';
   private readonly DEFAULT_IMAGE = 'https://suprabhatbanerjee.github.io/assets/images/og-image.svg';
   private readonly SITE_NAME = 'Suprabhat Banerjee Portfolio';
 
   public updateMetadata(config: Partial<SeoConfig>): void {
-    const pageTitle = config.title ? `${config.title} | Suprabhat Banerjee` : this.DEFAULT_TITLE;
+    const pageTitle = config.title ? `${config.title} | Suprabhat Kumar S.C.B` : this.DEFAULT_TITLE;
     const pageDesc = config.description || this.DEFAULT_DESC;
     const pageImage = config.image || this.DEFAULT_IMAGE;
     const pageType = config.type || 'website';
-    const pageUrl = config.url || 'https://suprabhatbanerjee.github.io';
+    const pageUrl = config.url || 'https://suprabhatkumar99.github.io/portfolio/';
 
     this.titleService.setTitle(pageTitle);
 
