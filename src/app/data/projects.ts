@@ -52,9 +52,36 @@ export const PROJECTS_DATA: Project[] = [
     "status": "completed",
     "thumbnail": "assets/projects/cinemax.png",
     "heroImage": "assets/projects/cinemax.png",
-    "technologies": [],
+    "technologies": [
+
+      {
+        "name": "Angular",
+        "category": "frontend"
+      },
+      {
+        "name": "Spring Boot",
+        "category": "backend"
+      },
+      {
+        "name": "Apache Kafka",
+        "category": "database"
+      },
+      {
+        "name": "Redis",
+        "category": "database"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "database"
+      },
+      {
+        "name": "Docker",
+        "category": "devops"
+      },
+
+    ],
     "category": [
-      "Frontend",
+      "Full-Stack",
       "Web Development"
     ],
     "problem": "Movie discovery interfaces can become difficult to navigate when content is not presented through a focused and intuitive browsing experience.",
