@@ -18,6 +18,23 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
   //   technologies: ['LangGraph', 'Python', 'Triton Server', 'llama-cpp', 'Docker', 'Linux']
   // },
   {
+    "id": "cargonest-full-stack-intern",
+    "role": "Full Stack Developer Intern",
+    "company": "Cargonest Warehousing Technologies Private Limited (BookMyWarehouse)",
+    "companyUrl": "https://www.bookmywarehouse.co.in/",
+    "location": "Remote",
+    "period": "September 2026 – Present",
+    "type": "internship",
+    "description": "Worked as a part-time, work-from-home Full Stack Developer Intern, gaining practical exposure to software development, web technologies, application development, and real-world product engineering.",
+    "highlights": [
+      "Assisted with frontend and backend development for web applications and product development activities.",
+      "Worked on API integration, database management, feature development, testing, debugging, and application maintenance.",
+      "Collaborated with the assigned technical/product team and followed project requirements, development guidance, and professional communication processes.",
+      "Contributed to software and product development while strengthening practical technical and professional skills."
+    ],
+    "technologies": ['Java', 'Spring Boot', 'Angular', 'PostgreSQL', 'REST APIs', 'Git']
+  },
+  {
     id: 'zidio-dev',
     role: 'Java Full Stack Development Intern',
     company: 'Zidio Development',
