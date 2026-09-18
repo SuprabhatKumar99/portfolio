@@ -190,6 +190,87 @@ export const PROJECTS_DATA: Project[] = [
     "liveUrl": "",
     "startDate": "",
     "endDate": ""
+  },
+
+  {
+    "slug": "ricozknow",
+    "title": "RicozKnow",
+    "tagline": "Enterprise knowledge intelligence platform that puts the right answer in front of every customer before they need to ask.",
+    "description": "An enterprise knowledge base and customer support intelligence platform designed to help organizations centralize, manage, retrieve, and deliver trusted knowledge across customer and support workflows. RicozKnow is designed around scalable knowledge management, intelligent retrieval, role-based access, multi-tenant architecture, and AI-assisted customer support.",
+    "featured": true,
+    "status": "in-progress",
+    "thumbnail": "assets/projects/ricozknow-thumbnail.png",
+    "heroImage": "assets/projects/ricozknow-hero.png",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "frontend"
+      },
+      {
+        "name": "TypeScript",
+        "category": "frontend"
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "frontend"
+      },
+      {
+        "name": "Spring Boot",
+        "category": "backend"
+      },
+      {
+        "name": "Java",
+        "category": "backend"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "database"
+      },
+      {
+        "name": "Redis",
+        "category": "database"
+      },
+      {
+        "name": "REST APIs",
+        "category": "backend"
+      },
+      {
+        "name": "JWT",
+        "category": "security"
+      },
+      {
+        "name": "Docker",
+        "category": "devops"
+      }
+    ],
+    "category": [
+      "Enterprise",
+      "Knowledge Management",
+      "AI",
+      "Full-Stack"
+    ],
+    "problem": "Enterprise support teams often struggle with fragmented documentation, outdated knowledge, inconsistent answers, and difficulty finding the right information quickly. As organizations scale, maintaining a reliable knowledge source across teams, products, and customer-facing workflows becomes increasingly difficult.",
+    "solution": "Designed RicozKnow as a centralized, enterprise-grade knowledge platform that organizes organizational knowledge into structured, searchable content while providing controlled access through roles and tenant boundaries. The platform is designed to make relevant knowledge easier to discover and deliver across customer-support workflows.",
+    "architecture": "Angular frontend -> Spring Boot REST API layer -> authentication and authorization -> multi-tenant knowledge management services -> PostgreSQL persistence -> Redis caching -> knowledge retrieval/search layer -> customer/support-facing knowledge delivery.",
+    "challenges": [
+      "Designing a multi-tenant architecture that keeps organizational knowledge isolated between tenants.",
+      "Creating a scalable knowledge model capable of supporting structured enterprise content and evolving knowledge domains.",
+      "Designing role-based access control for administrators, knowledge managers, support teams, and other organizational users.",
+      "Building efficient knowledge retrieval so support users can quickly discover relevant information.",
+      "Maintaining consistency and governance across knowledge creation, editing, publishing, and lifecycle management.",
+      "Designing the platform so SSO can be integrated as a future authentication capability."
+    ],
+    "outcomes": [
+      "Designed an enterprise-oriented knowledge management platform for scalable customer-support workflows.",
+      "Established a multi-tenant application architecture for organizational knowledge isolation.",
+      "Designed structured knowledge management and controlled access workflows.",
+      "Built the platform architecture around Angular and Spring Boot for maintainable full-stack development.",
+      "Prepared the architecture for caching, scalable retrieval, and future enterprise authentication capabilities."
+    ],
+    "githubUrl": "",
+    "liveUrl": "",
+    "startDate": "",
+    "endDate": ""
   }
   
 ];

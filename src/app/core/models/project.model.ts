@@ -9,6 +9,7 @@ export interface Technology {
     | 'devops'
     | 'ai'
     | 'infrastructure'
+    | 'security'
     | 'other';
 }
 
