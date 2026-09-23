@@ -10,6 +10,7 @@ export interface Technology {
     | 'ai'
     | 'infrastructure'
     | 'security'
+    | 'hardware'
     | 'other';
 }
 

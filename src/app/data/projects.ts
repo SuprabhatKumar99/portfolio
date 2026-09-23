@@ -271,6 +271,96 @@ export const PROJECTS_DATA: Project[] = [
     "liveUrl": "",
     "startDate": "",
     "endDate": ""
-  }
+  },
+
+  {
+  "slug": "aamts",
+  "title": "AAMTS — Automatic Attendance Management & Tracking System",
+  "tagline": "Smart attendance automation using BLE presence verification, real-time monitoring, and fraud detection.",
+  "description": "An intelligent attendance management and tracking platform designed to automate classroom attendance using Bluetooth Low Energy (BLE) evidence, scheduled attendance sessions, registered student devices, real-time monitoring, and backend verification. The system combines Angular and Tailwind CSS with a Spring Boot backend, PostgreSQL persistence, JWT-based authentication, role-based access control, and real-time attendance updates.",
+  "featured": true,
+  "status": "completed",
+  "thumbnail": "assets/projects/aamts-thumbnail.png",
+  "heroImage": "assets/projects/aamts-hero.png",
+  "technologies": [
+    {
+      "name": "Angular",
+      "category": "frontend"
+    },
+    {
+      "name": "TypeScript",
+      "category": "frontend"
+    },
+    {
+      "name": "Tailwind CSS",
+      "category": "frontend"
+    },
+    {
+      "name": "Java",
+      "category": "backend"
+    },
+    {
+      "name": "Spring Boot",
+      "category": "backend"
+    },
+    {
+      "name": "Spring Security",
+      "category": "security"
+    },
+    {
+      "name": "JWT",
+      "category": "security"
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "database"
+    },
+    {
+      "name": "REST APIs",
+      "category": "backend"
+    },
+    {
+      "name": "WebSocket",
+      "category": "backend"
+    },
+    {
+      "name": "Bluetooth Low Energy",
+      "category": "hardware"
+    },
+    {
+      "name": "Docker",
+      "category": "devops"
+    }
+  ],
+  "category": [
+    "Full-Stack",
+    "IoT",
+    "Distributed Systems",
+    "Real-Time Systems"
+  ],
+  "problem": "Traditional classroom attendance systems require significant manual effort from faculty and can make it difficult to verify whether a student is physically present. Manual attendance also creates opportunities for proxy attendance, duplicate submissions, device misuse, and other anomalies.",
+  "solution": "Built an automated attendance platform where faculty create scheduled attendance sessions and students provide BLE-based presence evidence from registered devices. The Spring Boot backend validates the beacon, active session, registered device, student section, timestamp, RSSI, duplicate submissions, replay attempts, and sustained presence before determining the attendance outcome.",
+  "architecture": "Angular + Tailwind frontend -> Spring Boot REST API -> JWT authentication and RBAC -> academic management modules -> attendance session lifecycle -> BLE evidence verification -> PostgreSQL -> real-time REST snapshot + STOMP WebSocket updates -> faculty/student dashboards and attendance reports.",
+  "challenges": [
+    "Designing a reliable attendance verification flow where BLE acts as presence evidence rather than being treated as unconditional proof of attendance.",
+    "Validating beacon identity, active attendance session, registered student device, section membership, timestamp skew, RSSI, duplicate submissions, and replay attempts.",
+    "Supporting a complete attendance session lifecycle from SCHEDULED to OPEN to CLOSED.",
+    "Providing real-time attendance updates to faculty through live REST snapshots and STOMP WebSocket events.",
+    "Detecting suspicious attendance activity and maintaining auditable attendance records.",
+    "Designing role-based access for SUPER_ADMIN, ADMIN, FACULTY, and STUDENT users."
+  ],
+  "outcomes": [
+    "Built an end-to-end automatic attendance management platform using BLE-based presence verification.",
+    "Implemented scheduled attendance sessions with OPEN and CLOSED lifecycle states.",
+    "Implemented backend verification for beacon, device, session, timestamp, RSSI, duplicate, replay, and presence conditions.",
+    "Implemented real-time attendance monitoring using REST live snapshots and STOMP WebSocket updates.",
+    "Implemented student, faculty, academic, device, beacon, attendance, fraud-alert, reporting, and audit workflows.",
+    "Implemented JWT authentication and role-based access control across the platform."
+  ],
+  "githubUrl": "",
+  "liveUrl": "",
+  "startDate": "",
+  "endDate": ""
+}
   
 ];
